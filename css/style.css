@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cabeza{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.titulo{
+    padding-left: 5px;
+    padding-top: 7px;
+}
+
+#busqueda{
+    width: 600px;
+    font-size: 20px;
+    padding: 5px;
+    padding-right: 205px;
+    margin-left: 25px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    transition: all 0.3s;
+}
+
+#btn-busqueda{
+    font-size: 20px;
+    padding: 4.5px;
+    padding-top: 5px;
+    margin-top: -1px;
+    background-color: white;
+    border: none;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    margin-right: 15px;
+    position: absolute;
+    transition: all 0.3s;
+}
+
+#btn-busqueda:hover{
+   background-color: rgb(119, 116, 116);
+   color: white;
+}
+
+.navegacion{
+    padding: 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-right: 15px;
+}
+
+.main{
+    padding-top: 95px;
+    padding-right: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.venta-1{
+    min-width: 30%;
+    min-height: 30%;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+    border: 2px solid rgb(232, 232, 232);
+    overflow: hidden;
+    padding: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    height: 30%;
+}
+
+.venta-1 img{
+    padding-left: 5px;
+}
+
+.venta-1 h3{
+    padding-bottom: 5px;
+}
+
+.venta-1 button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    font-weight: bolder;
+    box-shadow: inset 2px 2px 2px 2px rgb(59, 57, 57);
+    cursor: pointer;
+}
+
+.venta-2{
+    min-width: 30%;
+    min-height: 30%;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+    border: 2px solid rgb(232, 232, 232);
+    overflow: hidden;
+    padding: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    height: 30%;
+}
+
+.venta-2 h3{
+    padding-bottom: 5px;
+}
+
+.venta-2 button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    font-weight: bolder;
+    box-shadow: inset 2px 2px 2px 2px rgb(59, 57, 57);
+    cursor: pointer;
+}
+
+.venta-3{
+    min-width: 30%;
+    min-height: 30%;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+    border: 2px solid rgb(232, 232, 232);
+    overflow: hidden;
+    padding: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    height: 30%;
+}
+.venta-3 h3{
+    padding-bottom: 5px;
+}
+
+.venta-3 button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    font-weight: bolder;
+    box-shadow: inset 2px 2px 2px 2px rgb(59, 57, 57);
+    cursor: pointer;
+}
+
+.venta-4{
+    min-width: 30%;
+    min-height: 30%;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+    border: 2px solid rgb(232, 232, 232);
+    overflow: hidden;
+    padding: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    height: 30%;
+}
+
+.venta-4 h3{
+    padding-bottom: 5px;
+}
+
+.venta-4 button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    font-weight: bolder;
+    box-shadow: inset 2px 2px 2px 2px rgb(59, 57, 57);
+    cursor: pointer;
+}
+
+.venta-5{
+    min-width: 30%;
+    min-height: 30%;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+    border: 2px solid rgb(232, 232, 232);
+    overflow: hidden;
+    padding: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    height: 30%;
+}
+
+.venta-5 button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    font-weight: bolder;
+    box-shadow: inset 2px 2px 2px 2px rgb(59, 57, 57);
+    cursor: pointer;
+}
+
+.venta-5 h3{
+    padding-bottom: 5px;
+}
+
+.venta-6{
+    min-width: 30%;
+    min-height: 30%;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+    border: 2px solid rgb(232, 232, 232);
+    overflow: hidden;
+    padding: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    height: 30%;
+}
+
+.venta-3 h3{
+    padding-bottom: 5px;
+}
+
+.venta-7{
+    min-width: 30%;
+    min-height: 30%;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+    border: 2px solid rgb(232, 232, 232);
+    overflow: hidden;
+    padding: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    height: 30%;
+}
+
+.venta-3 h3{
+    padding-bottom: 5px;
+}
+
+.venta-8{
+    min-width: 30%;
+    min-height: 30%;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+    border: 2px solid rgb(232, 232, 232);
+    overflow: hidden;
+    padding: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    height: 30%;
+}
+
+.venta-3 h3{
+    padding-bottom: 5px;
+}
+
+.venta-9{
+    min-width: 30%;
+    min-height: 30%;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+    border: 2px solid rgb(232, 232, 232);
+    overflow: hidden;
+    padding: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    height: 30%;
+}
+
+.venta-3 h3{
+    padding-bottom: 5px;
+}
+
+.venta-10{
+    min-width: 30%;
+    min-height: 30%;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+    border: 2px solid rgb(232, 232, 232);
+    overflow: hidden;
+    padding: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    height: 30%;
+}
+
+.venta-3 h3{
+    padding-bottom: 5px;
+}
+
+
+
