@@ -63,11 +63,11 @@ a{
 }
 
 .main{
+    text-align: center;
     padding-top: 95px;
     padding-right: 45px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .venta-1{
@@ -82,6 +82,7 @@ a{
     margin-bottom: 15px;
     width: 30%;
     height: 30%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .venta-1 img{
@@ -114,6 +115,7 @@ a{
     margin-bottom: 15px;
     width: 30%;
     height: 30%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .venta-2 h3{
