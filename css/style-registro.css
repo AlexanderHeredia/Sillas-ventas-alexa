@@ -10,41 +10,74 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 140px;
+    margin-top: 120px;
 }
 
-.login{
+.register{
     display: flex ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: none;
     border-radius: 1rem;
-    padding: 145px;
+    padding: 100px;
+    padding-top: 80px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 16px;
 }
 
 #titulo{
     font-size: 35px;
-    cursor: pointer;
+    cursor: default;
 }
 
 #parrafo{
     margin-top: -15px;
 }
 
-.formulario{
+.form{
     display: flex;
     flex-direction: column;
     padding: 15px;
 }
 
+.name-lastName{
+    display: flex;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 50px;
+}
+
+#name{
+    font-size: 20px;
+    width: 70%;
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+#last-name{
+    font-size: 20px;
+    width: 70%;
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.email-pass{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+}
+
 .email{
-    padding-top: 55px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 
 #email{
+    width: 92%;
+    justify-content: center;
     border: none;
     border-bottom: 2px solid black;
     font-size: 20px;
@@ -58,11 +91,12 @@ body{
 
 
 .pass{
-    
+    justify-content: center;
     padding-bottom: 25px;
 }
 
 #pass{
+    width: 92%;
     border: none;
     border-bottom: 2px solid black;
     font-size: 20px;
@@ -74,7 +108,46 @@ body{
     border-bottom: 3px soid rgb(119, 104, 104);
 }
 
-#btn-login{
+.edad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#edad{
+    font-size: 35px;
+    cursor:default;
+}
+
+.dia-mes-year{
+    font-size: 80px;
+    margin-top: -45px;
+    margin-bottom: 5px;
+}
+
+#day{
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 2px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#month{
+    font-size: 16px;
+    padding-left: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#year{
+    font-size: 16px;
+    padding-left: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#btn{
     margin-top: 25px;
     color: white;
     border: 2px solid white;
@@ -87,25 +160,18 @@ body{
     transition: 0.3s;
 }
 
-#btn-login:hover{
+#btn:hover{
     color: rgb(150, 148, 148);
     border: 2px solid white;
     background-color: rgb(48, 46, 46);
-}
-
-.remeber{
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 45px;
-    padding-bottom: 45px;
 }
 
 #a{
     padding-left: 45px;
 }
 
-#register{
+#login{
     font-size: 14px;
     text-align: center;
+    padding-top: 45px;
 }
