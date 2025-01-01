@@ -123,3 +123,8 @@ a{
     background-color: black;
     color: white;
 }
+
+.venta button:active{
+    background-color: aliceblue;
+    color: black;
+}
